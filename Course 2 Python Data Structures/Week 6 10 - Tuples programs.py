@@ -197,7 +197,7 @@ print(tups)
 # First we sort the dictionary by the key using the items() method and sorted()
 # function. 
 
-d = { 'a' : 10, 'b' : 1, 'c' : 22 }
+d = { 'a' : 10,'c' : 22 , 'b' : 1, }
 
 d.items()
 # dict_items([('a', 10), ('c', 22), ('b', 1)])

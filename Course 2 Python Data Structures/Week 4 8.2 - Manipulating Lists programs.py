@@ -153,8 +153,8 @@ print(sum(nums)/len(nums))
 total = 0
 count = 0
 print("\n\n\nCalculating average of some numbers.\n")
-print("Please enter done if you are finished inputing.\n")
-while True:
+print("Please enter 'done' if you are finished inputing.")
+while True: # basically it creates an infinite loop with a break statement
     inp = input('Enter a number: ')
     if inp == 'done' : 
         break
@@ -163,7 +163,7 @@ while True:
     count = count + 1 
 
 average = total / count
-print('Average:', average)
+print('\nAverage:', average)
 
 # =============================================================================
 # Using built-in functions to calculate average (using data structure)
@@ -174,7 +174,7 @@ print('Average:', average)
 numlist = list()
 
 print("\n\n\nCalculating average of some numbers.\n")
-print("Please enter done if you are finished inputing.\n")
+print("Please enter 'done' if you are finished inputing.")
 while True:
     inp = input('Enter a number: ')
     if inp == 'done' : 
@@ -183,4 +183,13 @@ while True:
     numlist.append(value)
 
 average = sum(numlist) / len(numlist)
-print('Average:', average)
+print('\nAverage:', average)
+
+
+# Output of previous two programs: 
+# Calculating average of some numbers.
+# Please enter 'done' if you are finished inputing.
+# Enter a number: 5
+# Enter a number: 5
+# Enter a number: done
+# Average: 5.0

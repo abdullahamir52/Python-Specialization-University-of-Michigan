@@ -82,7 +82,7 @@ for key,value in jjj.items(): # here, key and value are two iteration variable
 # jan 100
 
 
-name = input('Enter file:')                     # line 1 
+name = input('Enter file: ')                    # line 1 
 handle = open(name)                             # line 2
 
 counts = dict()                                 # line 3
@@ -113,3 +113,8 @@ print('\nThe word that is most used: ', bigword, '\n\nand it is used:           
 # In line 11, if it is the first value then assign accordingly, otherwise,
 # In line 12 and 13, the word that is most used is assigned to 'bigword' 
 # and the number of times it is used is assigned to count. 
+
+# Output
+# Enter file: mbox-short.txt
+# The word that is most used:  Jan 
+# and it is used:              352 times

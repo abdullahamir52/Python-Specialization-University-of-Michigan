@@ -31,13 +31,14 @@ for w in stuff:
 # Couple of details about split()
 # =============================================================================
 
-# When you do not specify a delimiter, multiple spaces are treated like one
+# When you do not specify a 'delimiter', multiple spaces are treated like one
 # delimiter. You can specify what delimiter character to use in the splitting.
 
 line = 'A lot                       of spaces'
 etc = line.split()
 print(etc)
 # ['A', 'lot', 'of', 'spaces']
+# it ignores the long whitespace
 
 line = 'first;second;third'
 thing = line.split() # its looking for spaces. 
@@ -77,6 +78,8 @@ for line in fhand:
 line1 = 'From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008'
 words1 = line1.split()
 print(words1)
+# ['From', 'stephen.marquard@uct.ac.za', 'Sat', 'Jan', '5', '09:14:16', '2008']
+
 
 # =============================================================================
 # The Double Split pattern

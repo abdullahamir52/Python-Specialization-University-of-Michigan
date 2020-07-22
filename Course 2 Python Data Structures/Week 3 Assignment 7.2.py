@@ -12,6 +12,7 @@
 # =============================================================================
 
 # Use the file name mbox-short.txt as the file name
+
 fname = input("Enter file name: ")
 fhandle = open(fname)
 count = 0
@@ -26,3 +27,7 @@ for line in fhandle:
     # print(line)
 print("Average spam confidence:", avg)
 # print("Done")
+
+# Output
+# Enter file name: mbox-short.txt
+# Average spam confidence: 0.7507185185185187

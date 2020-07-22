@@ -15,7 +15,7 @@ print(ccc)
 ccc['cwen'] = ccc['cwen'] + 1
 
 print(ccc) 
-# {'csev': 1, 'cwen': 1}
+# {'csev': 1, 'cwen': 2}
 
 # =============================================================================
 # Dictionary tracebacks
@@ -51,11 +51,11 @@ print(ccc['csev'])
 counts = dict()
 names = ['csev', 'cwen', 'csev', 'zqian', 'cwen']
 
-for name in names:
-    if name not in counts:
-        counts[name] = 1 
+for name in names:          # for each element in 'names' list
+    if name not in counts:  # if an element is not in 'counts'
+        counts[name] = 1    # create a new label and a count to it
     else:
-        counts[name] = counts[name] + 1 
+        counts[name] = counts[name] + 1     # else just do another count
 
 print(counts) 
 

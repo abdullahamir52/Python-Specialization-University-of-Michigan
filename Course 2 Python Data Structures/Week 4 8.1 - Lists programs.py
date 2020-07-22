@@ -78,7 +78,7 @@ print('Done!')
 
 z = ['socks', 'shirt', 'perfume']
 for x in z:
-    print('Itenaries include', x)
+    print('Itenaries include: ', x)
 print('Done!')
 
 # =============================================================================
@@ -125,13 +125,13 @@ print(lotto)
 # Actually len() tells us the number of elements of any set or sequence
 # (such as a string...)
 
-greet = 'Hello Bob!'
-print(len(greet))
-# 10
-
 x = [1,2,'joe',99]
 print(len(x))
 # 4
+
+greet = 'Hello Bob!'
+print(len(greet))
+# 10
 
 # =============================================================================
 # Using the Range function
@@ -172,7 +172,7 @@ for index2 in range(len(list1)):
 # final value of index2 is 2 (0,1,2)
 # final value of index3 is Sally
 
-# Output
+# Output (for both loops)
 # Happy New Year: Joseph
 # Happy New Year: Glenn
 # Happy New Year: Sally
