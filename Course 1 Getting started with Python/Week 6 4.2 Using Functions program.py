@@ -1,5 +1,5 @@
 # =============================================================================
-# Program 1 
+# Program 1
 # =============================================================================
 
 x=5
@@ -19,7 +19,8 @@ print_lyrics()
 def greet(lang):
 # arguments are input values. e.g. 'es', 'fr'
 # parameters are a variable which we use in the function definition. e.g. 'lang'
-# It is a 'handle' that allows the code in the fn to access the arguments for a particular fn invocation
+# It is a 'handle' that allows the code in the fn to access the arguments
+# for a particular fn invocation
     if lang=='es':
         print('Hola')
     elif lang=='fr':
@@ -36,7 +37,8 @@ greet('fr')
 
 def greet():
     return 'Hello'
-# often a function will take its argument, do some calculation and return a value in the expression
+# often a function will take its argument, do some calculation and return a
+# value in the expression
 print(greet(), 'Glenn')
 print(greet(), 'Sally')
 
@@ -45,7 +47,7 @@ print(greet(), 'Sally')
 # =============================================================================
 
 # a return command stops, determines the residual value and gives it back to us.
-# once we can use the return command, the function stops there. 
+# once we can use the return command, the function stops there.
 def greet(lang):
     if lang=='es':
         return'Hola'
