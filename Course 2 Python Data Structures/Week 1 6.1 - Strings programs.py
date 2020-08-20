@@ -1,5 +1,5 @@
 # =============================================================================
-# Program 1
+# Program 1 
 # =============================================================================
 str1 = 'Hello'
 str2 = ' There'
@@ -146,7 +146,7 @@ s = 'Monty Python'
 print(s[:2])
 print(s[8:])
 print(s[:])
-# if you leave the spot open, it assumes to start from the beginning or 
+# if you leave the spot open, it assumes to start from the beginning or
 # stop at the end
 
 # Output
